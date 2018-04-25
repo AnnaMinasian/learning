@@ -1,0 +1,197 @@
+/* стили для любой ширины */
+header {
+    background-image: url(..//img/top.png);
+}
+.pricings {
+    background-image: url(..//img/Warstwa-82.png);
+}
+.map {
+    background-image: url(..//img/Warstwa-15.png);
+    height: 400px;
+    z-index: 0;
+}
+.pricings, header, .map {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.details, .contact {
+    background-color: rgba(231, 229, 229, 0.6);
+}
+.price button, p:first-child {
+    color: rgb(15, 133, 211);
+}
+.blueButton, .price button:hover {
+    background-color: rgb(15, 133, 211);
+}
+footer, .pricePlan, .container {
+    background-color: black;
+}
+.menu, .features, .plans, .bottom, .price, .info, .more, .container {
+    display: flex;
+    flex-flow: row wrap;
+}
+button, input, .blueButton, .price button:hover, .nav, header h1, .pricings h1, h3, .bottom h1 {
+    color: white;
+}
+li, .list ul, .dev ul {
+    display: inline-block;
+    vertical-align: top;
+}
+.list li, .dev li {
+    display: block;
+}
+.list li {
+    height: 37px;
+}
+footer li:nth-child(n+2), .nav li:nth-child(n+2), form button:nth-child(n+2) {
+    margin-left: 30px;
+}
+.sectionTop1, footer, .opport, .cont, .plan {
+    text-align: center;
+}
+.column, .container, .opport, .cont, .plan, .more div, .dev{
+    margin: 0 auto;
+}
+.logo {
+    margin-right: auto;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    padding-bottom: 20px;
+}
+.introducing p:last-of-type {
+    font-size: 1.5rem;
+    padding-bottom: 60px;
+}
+.sectionTop1 img, .sectionTop2 img {
+    padding-bottom: 30px;
+}
+.opport h1, .list h2, .sectionTop2 .list img {
+    font-weight: normal;
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+.introducing h1 {
+    font-size: 2.7rem;
+    padding-bottom: 60px
+}
+p {
+    color: rgb(134, 134, 134);
+    line-height: initial;
+}
+button, input, .sectionTop1 p, .sectionTop2 p:first-of-type , .introducing p:first-of-type, .price h2 {
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+input {
+    padding-left: 10px;
+}
+.more .sectionTop2 {
+    padding-top: 50px;
+}
+.nav li, p, .price h2 {
+    font-size: 1.2rem;
+}
+.price div, .opport {
+    width: 20%;
+} 
+.price div {
+    border: 1px solid rgba(187, 186, 186, 0.5);
+}
+.price h2, .price p:nth-child(2n) {
+    padding: 20px 15px 20px 15px;
+    margin-bottom: 0;
+}
+.logo, .price p, .opport h1 {
+    padding-bottom: 20px;
+}
+.menu {
+    padding-bottom: 40px;
+}
+section, header, .pricings, .bottom {
+    padding: 60px 100px 60px 100px;
+}
+footer {
+    padding: 30px 0 30px 0;
+}
+footer p {
+    font-size: 1rem;
+    padding-top: 15px;
+}
+.overview, .price h2:first-child, .price p:first-of-type {
+    border-bottom: 1px solid rgba(187, 186, 186, 0.5);
+}
+.introducing {
+    width: 45%;
+}
+.bottom h1, button {
+    margin: 0;
+    padding: 0;;
+}
+.bottom h1 {
+    margin-right: 60px;
+    padding-bottom: 20px;
+}
+button, input {
+    background-color: transparent;
+    border: 1px solid rgba(187, 186, 186, 0.5);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 3px;
+}
+.dev {
+    width: 40%;
+}
+.dev h3 {
+    font-size: 1.2rem;
+    font-weight: normal;
+    font-style: italic;
+    line-height: initial;
+    padding-bottom: 30px;
+}
+.dev p {
+    padding-left: 10px;
+    height: 35px;
+    font-size: 1rem;
+    color: white;
+}
+button {
+    width: 140px;
+    height: 40px;
+}
+.container {
+    margin-top: 30px;
+    margin-bottom: -100px;
+    position: relative;
+    z-index: 1;
+    width: 50%;
+    padding: 30px;
+}
+.container input {
+    width: 250px;
+    height: 50px;
+}
+.container .message {
+    height: 190px;
+    padding-bottom: 140px;
+}
+.column p {
+    text-align: right;
+}
+/* стили для мобильных устройств*/
+
+@media (max-width: 1320px) {
+    .introducing {
+        width: 60%;
+    }
+    .introducing p:last-of-type {
+        font-size: 1.2rem;
+        padding-bottom: 30px;
+    }
+    .introducing h1 {
+        font-size: 2rem;
+        padding-bottom: 30px
+    }
+}
