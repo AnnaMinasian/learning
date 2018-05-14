@@ -12,6 +12,10 @@
     font-size: 100%;
     vertical-align: baseline;
   }
+  a:hover , a {
+    color: inherit;
+    text-decoration: inherit;
+}
   article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
     display: block;
   }
